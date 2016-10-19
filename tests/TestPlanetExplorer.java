@@ -15,4 +15,6 @@ public class TestPlanetExplorer {
 		
 		assertEquals(""+pE.posX+pE.posY+pE.direction, "00N");
 	}
+	
+	@Test public void 
 }
