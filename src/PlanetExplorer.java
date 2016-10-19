@@ -114,6 +114,8 @@ public class PlanetExplorer {
 		case 'N': 
 			this.posX++;
 			break;
+		case 'W':
+			this.posY--;
 		
 		}
 	}
