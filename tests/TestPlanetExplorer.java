@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestPlanetExplorer {
-
+	PlanetExplorer pE = new PlanetExplorer(100,100,"");
 	@Test
 	public void test_executeCommand() {
 		fail("Not yet implemented");
@@ -11,13 +11,13 @@ public class TestPlanetExplorer {
 	
 	
 	@Test public void PlanetExplorer_testCorrectInit() {
-		PlanetExplorer pE = new PlanetExplorer(100,100,"");
+		
 		
 		assertEquals(""+pE.posX+pE.posY+pE.direction+pE.gridX+pE.gridY, "00N100100");
 	}
 	
-	@Test executeCommand_testRotationLeft_ChangeDirectionFromNToE() {
-		
+	@Test public void executeCommand_testRotationLeft_ChangeDirectionFromNToE() {
+		pE.executeCommand("");
 	}
 	
 
