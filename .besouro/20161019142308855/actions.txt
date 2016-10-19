@@ -438,3 +438,6 @@ RefactoringAction 1476880715286 TestPlanetExplorer.java RENAME createObstacle()=
 RefactoringAction 1476880717791 TestPlanetExplorer.java RENAME planetExplorer_createObstacle()=>void PlanetExplorer_createObstacle() METHOD
 EditAction 1476880722058 TestPlanetExplorer.java 2826 13 46 12
 EditAction 1476880768097 TestPlanetExplorer.java 2884 13 47 12
+UnitTestCaseAction 1476880770261 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880770262 TestPlanetExplorer.java OK
+EditAction 1476880853693 TestPlanetExplorer.java 2889 13 47 13

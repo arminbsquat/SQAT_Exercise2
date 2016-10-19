@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestPlanetExplorer {
-	PlanetExplorer pE = new PlanetExplorer(100,100,"");
+	PlanetExplorer pE = new PlanetExplorer(100,100,"(10,10)");
 	
 	
 	@Test public void PlanetExplorer_testCorrectInit() {	
@@ -118,7 +118,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void PlanetExplorer_createObstacle() {
-		PlanetExplorer pE = new PlanetExplorer(100,100,"(10,10)");
+		assertEquals(this.obs[0].X+this.obs[0].Y, ""+10+"_"+10);
 	}
 
 }
