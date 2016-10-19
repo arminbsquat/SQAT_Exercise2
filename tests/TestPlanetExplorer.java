@@ -118,7 +118,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void PlanetExplorer_createObstacle() {
-		
+		PlanetExplorer pE = new PlanetExplorer(100,100,"(10,10)");
 	}
 
 }
