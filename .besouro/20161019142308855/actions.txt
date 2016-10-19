@@ -595,3 +595,19 @@ CompilationAction 1476882979761 TestPlanetExplorer.java
 EditAction 1476882983112 TestPlanetExplorer.java 3184 14 47 13
 CompilationAction 1476882984611 TestPlanetExplorer.java
 EditAction 1476883001696 TestPlanetExplorer.java 3202 14 54 14
+UnitTestCaseAction 1476883005700 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883005701 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883033111 PlanetExplorer.java ADD int oldPos FIELD
+RefactoringAction 1476883034117 PlanetExplorer.java RENAME oldPos=>int oldPosX FIELD
+RefactoringAction 1476883038636 PlanetExplorer.java ADD int oldPosX/2 FIELD
+RefactoringAction 1476883039647 PlanetExplorer.java RENAME oldPosX/2=>int oldPosY FIELD
+CompilationAction 1476883080289 PlanetExplorer.java
+RefactoringAction 1476883083968 PlanetExplorer.java ADD void obstacleDetection() METHOD
+UnitTestCaseAction 1476883163722 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883163723 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883247396 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883247397 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883367295 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883367296 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883411140 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883411141 TestPlanetExplorer.java FAIL

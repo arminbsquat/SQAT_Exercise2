@@ -8,7 +8,8 @@ public class PlanetExplorer {
 	
 
 	
-
+	int oldPosX;
+	int oldPosY;
 	int posX;
 	int posY;
 	char direction; // N, S, E, W
@@ -163,33 +164,52 @@ public class PlanetExplorer {
 	private void nextPositionForward() {
 		switch(this.direction) {
 		case 'N': 
+			this.oldPosX = this.posX;
 			this.posX++;
 			if(this.posX > this.gridX) {
 				this.posX = 0; 
 			}
+			this.obstacleDetection();
 			break;
 		case 'W':
+			this.oldPosY = this.posY;
 			this.posY--;
 			if(this.posY < 0) {
 				this.posY = this.gridY; 
 			}
+			this.obstacleDetection();
 			break;
 		case 'S':
+			this.oldPosX = this.posX;
 			this.posX--;
 			if(this.posX < 0) {
 				this.posX = this.gridX; 
 			}
+			this.obstacleDetection();
 			break;
 		case 'E':
+			this.oldPosY = this.posY;
 			this.posY++;
 			if(this.posY > this.gridY) {
 				this.posY = 0; 
 			}
+			this.obstacleDetection();
 			break;
 		default: break;	
 		}
 	}
 	
+	private void obstacleDetection() {
+		
+		for(Obstacle ob : this.obs) {
+			if(ob.x == this.posX && ob.y == this.posY) { // rover is on obstacle
+				this.posX = this.oldPosX;
+				this.posY = this.oldPosY;
+			}
+		}
+		
+	}
+
 	private void nextPositionBackward() {
 		switch(this.direction) {
 		case 'N': 
