@@ -44,7 +44,9 @@ public class PlanetExplorer {
 		char[] charCommand = command.toCharArray();
 		
 		for(char character : charCommand) {
+			switch(character) {
 			
+			}
 		}
 		
 		
