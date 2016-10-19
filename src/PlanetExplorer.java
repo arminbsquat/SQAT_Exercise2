@@ -52,7 +52,6 @@ public class PlanetExplorer {
 			
 			case 'l': 
 				this.nextDirectionLeft();
-				this.direction = 'W';
 				break;
 			case 'r': 
 				this.direction = 'E';
