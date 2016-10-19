@@ -18,4 +18,5 @@
 1476880428976 test-addition 2 190 true
 1476880480575 refactoring 2A 51 true
 1476880610656 test-last 1 130 false
-1476880770262 test-addition 1 159 false
+1476880770262 test-addition 1 159 true
+1476882562857 test-first 1 1792 true

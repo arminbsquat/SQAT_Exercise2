@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -13,7 +14,7 @@ public class PlanetExplorer {
 	char direction; // N, S, E, W
 	int gridX;
 	int gridY;
-	ArrayList<Obstacle> obs;
+	ArrayList<Obstacle> obs = new ArrayList<Obstacle>();
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -26,7 +27,6 @@ public class PlanetExplorer {
 	 */
 		this.initObs(obstacles);
 		
-		obs = new Obstacle[10];
 		this.posY = 0;
 		this.posX = 0;
 		this.direction = 'N';
@@ -35,7 +35,6 @@ public class PlanetExplorer {
 	}
 	
 	private void initObs(String obstacles) {
-		int i = 0;
 		char[] charObs = obstacles.toCharArray();
 		boolean start = false;
 		StringBuffer singleNumber = new StringBuffer();
@@ -61,8 +60,8 @@ public class PlanetExplorer {
 				start = false;
 				String b = singleNumber.toString().substring(0, singleNumber.length()-1);
 				y = Integer.parseInt(b);
-				this.obs[i] = new Obstacle(x,y);
-				i++;
+				Obstacle ob = new Obstacle(x,y);
+				this.obs.add(ob) ;
 			}
 
 			

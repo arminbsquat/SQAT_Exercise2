@@ -529,3 +529,25 @@ CompilationAction 1476882067151 PlanetExplorer.java
 CompilationAction 1476882096817 PlanetExplorer.java
 EditAction 1476882100874 PlanetExplorer.java 4197 7 21 0
 EditAction 1476882142775 PlanetExplorer.java 4206 7 21 0
+CompilationAction 1476882144465 PlanetExplorer.java
+CompilationAction 1476882144466 TestPlanetExplorer.java
+RefactoringAction 1476882146729 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1476882164678 PlanetExplorer.java
+CompilationAction 1476882164889 TestPlanetExplorer.java
+UnitTestCaseAction 1476882190160 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882190161 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476882293668 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882293669 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476882504031 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882504032 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476882527927 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882527927 TestPlanetExplorer.java FAIL
+CompilationAction 1476882554909 PlanetExplorer.java
+UnitTestCaseAction 1476882562856 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476882562857 TestPlanetExplorer.java OK
+EditAction 1476882578490 TestPlanetExplorer.java 2885 13 47 13
+CompilationAction 1476882579358 TestPlanetExplorer.java
+CompilationAction 1476882604743 TestPlanetExplorer.java
+UnitTestCaseAction 1476882610747 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882610748 TestPlanetExplorer.java FAIL
+EditAction 1476882625032 TestPlanetExplorer.java 2893 13 47 13
