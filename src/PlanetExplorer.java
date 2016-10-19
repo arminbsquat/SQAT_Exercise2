@@ -60,7 +60,7 @@ public class PlanetExplorer {
 				this.nextPositionForward();
 				break;
 			case 'b': 
-				this.posY = 1;
+				this.nextPositionBackward();
 				break;
 				
 			default: break;

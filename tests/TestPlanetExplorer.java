@@ -28,9 +28,7 @@ public class TestPlanetExplorer {
 	@Test public void executeCommand_testMovingBackwards_ChangePosXFrom2To1() {
 		pE.executeCommand("f");
 		pE.executeCommand("f");
-		
 		pE.executeCommand("b");
-		
 		assertEquals(2, pE.posX);
 	}
 
