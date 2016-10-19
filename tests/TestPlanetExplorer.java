@@ -86,7 +86,7 @@ public class TestPlanetExplorer {
 			pE.executeCommand("f");
 		}
 		
-		pE.executeCommand("f");
+		//pE.executeCommand("f");
 		
 		assertEquals("00", ""+pE.posX+pE.posY);	
 	}
