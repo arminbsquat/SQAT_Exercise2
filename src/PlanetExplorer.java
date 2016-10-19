@@ -52,12 +52,15 @@ public class PlanetExplorer {
 			
 			if(character == ',') {
 				String a = singleNumber.toString().substring(0, singleNumber.length()-1);
+				singleNumber = new StringBuffer(); // empty singleNumber
 				x = Integer.parseInt(a);
 			}
 			
 			if(character == ')') {
 				start = false;
 				String b = singleNumber.toString().substring(0, singleNumber.length()-1);
+				y = Integer.parseInt(b);
+				
 			}
 
 			
