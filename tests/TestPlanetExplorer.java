@@ -18,7 +18,7 @@ public class TestPlanetExplorer {
 	
 	@Test public void executeCommand_testRotationLeft_ChangeDirectionFromNToW() {
 		pE.executeCommand("l");
-		assertEquals(pE.direction, 'L');
+		assertEquals(pE.direction, 'W');
 	}
 	
 	@Test public void executeCommand_testRotationRight_ChangeDirectionFromNToE() {
