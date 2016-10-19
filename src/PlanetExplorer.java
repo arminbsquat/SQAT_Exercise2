@@ -45,7 +45,10 @@ public class PlanetExplorer {
 		
 		for(char character : charCommand) {
 			switch(character) {
-			case 'l': break;
+			
+			case 'l': 
+				
+				break;
 			case 'r': break;
 			case 'f': break;
 			case 'b': break;
