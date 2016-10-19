@@ -39,10 +39,11 @@ public class PlanetExplorer {
 		boolean start = false;
 		StringBuffer singleObstacle = new StringBuffer();
 		
-		for(char character : charObs) {
+		for(int i = 0; i < charObs.length; i++) {
 			
-			
-			
+			if(charObs[i] == '(') {
+				
+			}
 		}
 		
 	}
