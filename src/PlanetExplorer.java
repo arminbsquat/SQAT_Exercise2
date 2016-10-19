@@ -38,7 +38,8 @@ public class PlanetExplorer {
 		char[] charObs = obstacles.toCharArray();
 		boolean start = false;
 		StringBuffer singleNumber = new StringBuffer();
-		
+		int x = 0; 
+		int y = 0;
 		for(char character : charObs) {
 			
 			if(start) {
@@ -53,7 +54,8 @@ public class PlanetExplorer {
 				start = false;
 			}
 			if(character == ',') {
-				new Obstacle(Integer.parseInt(singleNumber.toString()));
+				String a = singleNumber.toString().substring(0, singleNumber.length()-1);
+				x = Integer.parseInt(a);
 			}
 			
 

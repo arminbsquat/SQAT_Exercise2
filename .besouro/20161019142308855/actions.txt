@@ -513,3 +513,11 @@ CompilationAction 1476881633628 Obstacle.java
 CompilationAction 1476881649593 Obstacle.java
 CompilationAction 1476881649595 Obstacle.java
 EditAction 1476881684138 PlanetExplorer.java 3895 7 18 0
+CompilationAction 1476881685763 PlanetExplorer.java
+CompilationAction 1476881711811 PlanetExplorer.java
+CompilationAction 1476881712032 PlanetExplorer.java
+CompilationAction 1476881836583 PlanetExplorer.java
+CompilationAction 1476881846566 PlanetExplorer.java
+CompilationAction 1476881846765 PlanetExplorer.java
+CompilationAction 1476881861924 PlanetExplorer.java
+EditAction 1476881913369 PlanetExplorer.java 3965 7 20 0
