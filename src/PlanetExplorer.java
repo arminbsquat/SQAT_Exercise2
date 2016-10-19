@@ -116,6 +116,13 @@ public class PlanetExplorer {
 			break;
 		case 'W':
 			this.posY--;
+			break;
+		case 'S':
+			this.posX--;
+			break;
+		case 'E':
+			this.posY++;
+			break;
 		
 		}
 	}
