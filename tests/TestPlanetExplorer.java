@@ -25,7 +25,7 @@ public class TestPlanetExplorer {
 		assertEquals(pE.posX, 2);
 	}
 	
-	@Test public void executeCommand_testMovingBackwards_ChangePosYFrom0To100() {
+	@Test public void executeCommand_testMovingBackwards_ChangePosXFrom2To1() {
 		pE.executeCommand("f");
 		assertEquals(pE.posX, 2);
 	}
