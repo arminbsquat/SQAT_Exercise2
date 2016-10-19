@@ -212,3 +212,20 @@ CompilationAction 1476878667201 PlanetExplorer.java
 CompilationAction 1476878667202 PlanetExplorer.java
 CompilationAction 1476878667203 PlanetExplorer.java
 EditAction 1476878673868 PlanetExplorer.java 2119 3 9 0
+CompilationAction 1476878675231 PlanetExplorer.java
+CompilationAction 1476878675232 PlanetExplorer.java
+CompilationAction 1476878675233 PlanetExplorer.java
+RefactoringAction 1476878682695 PlanetExplorer.java REMOVE nextDicrection(char) METHOD
+RefactoringAction 1476878684200 PlanetExplorer.java ADD void nextDicrection(char) METHOD
+CompilationAction 1476878685018 PlanetExplorer.java
+CompilationAction 1476878685190 PlanetExplorer.java
+CompilationAction 1476878685191 PlanetExplorer.java
+CompilationAction 1476878685192 PlanetExplorer.java
+RefactoringAction 1476878704229 PlanetExplorer.java RENAME nextDicrection(char)=>char nextDicrection() METHOD
+RefactoringAction 1476878707747 PlanetExplorer.java REMOVE nextDicrection() METHOD
+CompilationAction 1476878709448 PlanetExplorer.java
+CompilationAction 1476878709449 PlanetExplorer.java
+CompilationAction 1476878709450 PlanetExplorer.java
+RefactoringAction 1476878716759 PlanetExplorer.java ADD void nextDirection() METHOD
+RefactoringAction 1476878721777 PlanetExplorer.java RENAME nextDirection()=>void nextDirection(char) METHOD
+EditAction 1476878723689 PlanetExplorer.java 2102 3 8 0
