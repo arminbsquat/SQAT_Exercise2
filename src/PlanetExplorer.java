@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		/*
+		/*						 y
 		 *		   S --
 		 *      0xxxxxxxx
 		 *      xxxxxxxxx
@@ -35,7 +35,7 @@ public class PlanetExplorer {
 		 *      xxxxxxxxx
 		 *      xxxxxxxxx
 		 *		   N ++
-		 *
+		 *  x
 		 */
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
