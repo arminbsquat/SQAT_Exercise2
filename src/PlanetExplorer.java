@@ -27,7 +27,11 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		
+		/*
+		 *		N
+		 * W		E
+		 *		S
+		 */
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
