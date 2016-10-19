@@ -16,5 +16,9 @@ public class TestPlanetExplorer {
 		assertEquals(""+pE.posX+pE.posY+pE.direction+pE.gridX+pE.gridY, "00N100100");
 	}
 	
+	@Test executeCommand_testRotationLeft_ChangeDirectionFromNToE() {
+		
+	}
+	
 
 }
