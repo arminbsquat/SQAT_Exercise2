@@ -18,8 +18,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-	this.gridX = x;
-	this.gridY = y;
+		this.gridX = x;
+		this.gridY = y;
 		
 		
 		
