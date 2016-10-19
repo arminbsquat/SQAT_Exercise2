@@ -571,3 +571,5 @@ EditAction 1476882715571 TestPlanetExplorer.java 2959 14 47 13
 UnitTestCaseAction 1476882830881 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476882830882 TestPlanetExplorer.java OK
 EditAction 1476882858795 TestPlanetExplorer.java 3089 14 52 13
+RefactoringAction 1476882867430 TestPlanetExplorer.java REMOVE executeCommand_CrashObstacle_At2_2() METHOD
+EditAction 1476882867979 TestPlanetExplorer.java 2896 13 47 13
