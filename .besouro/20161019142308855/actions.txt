@@ -279,3 +279,9 @@ EditAction 1476879264757 TestPlanetExplorer.java 910 5 11 5
 UnitTestCaseAction 1476879267307 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879267309 TestPlanetExplorer.java FAIL
 EditAction 1476879273709 TestPlanetExplorer.java 910 5 11 5
+UnitTestCaseAction 1476879277520 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879277522 TestPlanetExplorer.java OK
+RefactoringAction 1476879298669 PlanetExplorer.java ADD void nextPositionBack FIELD
+RefactoringAction 1476879299674 PlanetExplorer.java RENAME nextPositionBack=>void nextPositionBack() METHOD
+RefactoringAction 1476879301680 PlanetExplorer.java RENAME nextPositionBack()=>void nextPositionBackward() METHOD
+EditAction 1476879314332 PlanetExplorer.java 2817 6 11 0

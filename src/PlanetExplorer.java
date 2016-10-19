@@ -123,10 +123,13 @@ public class PlanetExplorer {
 		case 'E':
 			this.posY++;
 			break;
-		
+		default: break;	
 		}
 	}
 	
+	private void nextPositionBackward() {
+		
+	}
 }
 
 
