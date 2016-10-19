@@ -121,6 +121,18 @@ public class TestPlanetExplorer {
 		assertEquals(""+10+10 , ""+pE.obs.get(0).x+pE.obs.get(0).y);
 	}
 	
-
+	@Test public void executeCommand_CrashObstacle_At2_2() {
+		PlanetExplorer pE = new PlanetExplorer(100,100,"(2,2)");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("r");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		
+		
+		
+		
+		
+	}
 
 }
