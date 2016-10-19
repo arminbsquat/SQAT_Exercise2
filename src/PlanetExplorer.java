@@ -111,7 +111,7 @@ public class PlanetExplorer {
 	
 	private void nextPositionForward() {
 		switch(this.direction) {
-		case 'N': 
+		case 'N': break;
 		
 		}
 	}
