@@ -53,6 +53,10 @@ public class PlanetExplorer {
 				this.direction = 'E';
 				break;
 			case 'f': 
+				if(this.direction == 'N' || this.direction == 'S') {
+					
+				}
+				
 				this.posX = 2;
 				break;
 			case 'b': 
