@@ -32,7 +32,7 @@ public class TestPlanetExplorer {
 		assertEquals(1, pE.posX);
 	}
 	
-	@Test public void executeCommand_testMovingTo1010() {
+	@Test public void executeCommand_testMovingTo2_2() {
 		
 	}
 

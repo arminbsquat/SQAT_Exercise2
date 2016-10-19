@@ -300,3 +300,8 @@ RefactoringAction 1476879389432 TestPlanetExplorer.java RENAME executeCommand_te
 RefactoringAction 1476879391436 TestPlanetExplorer.java RENAME executeCommand_testMovingTo=>void executeCommand_testMovingTo10 FIELD
 RefactoringAction 1476879393942 TestPlanetExplorer.java RENAME executeCommand_testMovingTo10=>void executeCommand_testMovingTo1010() METHOD
 EditAction 1476879396339 TestPlanetExplorer.java 967 6 11 5
+RefactoringAction 1476879400449 TestPlanetExplorer.java RENAME executeCommand_testMovingTo1010()=>void executeCommand_testMovingTo310() METHOD
+RefactoringAction 1476879401453 TestPlanetExplorer.java RENAME executeCommand_testMovingTo310()=>void executeCommand_testMovingTo33() METHOD
+RefactoringAction 1476879403457 TestPlanetExplorer.java RENAME executeCommand_testMovingTo33()=>void executeCommand_testMovingTo3_3() METHOD
+RefactoringAction 1476879453526 TestPlanetExplorer.java RENAME executeCommand_testMovingTo3_3()=>void executeCommand_testMovingTo2_2() METHOD
+EditAction 1476879454447 TestPlanetExplorer.java 966 6 11 5
