@@ -115,7 +115,7 @@ public class PlanetExplorer {
 		case 'N': 
 			this.posX++;
 			if(this.posX > this.gridX) {
-				this.posX = this.gridX; 
+				this.posX = 0; 
 			}
 			break;
 		case 'W':
@@ -127,7 +127,7 @@ public class PlanetExplorer {
 		case 'S':
 			this.posX--;
 			if(this.posX < 0) {
-				this.posX = 0; 
+				this.posX = this.gridX; 
 			}
 			break;
 		case 'E':
