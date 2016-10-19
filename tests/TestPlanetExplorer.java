@@ -31,7 +31,7 @@ public class TestPlanetExplorer {
 		
 		pE.executeCommand("b");
 		
-		assertEquals(pE.posX, 2);
+		assertEquals(2, pE.posX);
 	}
 
 }
