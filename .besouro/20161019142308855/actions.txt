@@ -165,3 +165,8 @@ EditAction 1476878206845 TestPlanetExplorer.java 721 4 7 4
 UnitTestCaseAction 1476878208730 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476878208731 TestPlanetExplorer.java OK
 EditAction 1476878213829 TestPlanetExplorer.java 716 4 7 4
+RefactoringAction 1476878234623 TestPlanetExplorer.java ADD void executeCommand_testMovingForward_ChangePosXFrom0To1()/2 METHOD
+RefactoringAction 1476878237628 TestPlanetExplorer.java RENAME executeCommand_testMovingForward_ChangePosXFrom0To1()/2=>void executeCommand_testMoving_ChangePosXFrom0To1() METHOD
+RefactoringAction 1476878239645 TestPlanetExplorer.java RENAME executeCommand_testMoving_ChangePosXFrom0To1()=>void executeCommand_testMovingBackwards_ChangePosXFrom0To1() METHOD
+RefactoringAction 1476878242156 TestPlanetExplorer.java RENAME executeCommand_testMovingBackwards_ChangePosXFrom0To1()=>void executeCommand_testMovingBackwards_ChangePosY FIELD
+EditAction 1476878248405 TestPlanetExplorer.java 854 5 9 5
