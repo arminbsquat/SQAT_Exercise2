@@ -6,9 +6,9 @@
 public class PlanetExplorer {
 	int posX = 0;
 	int posY = 0;
-	char direction = 'N'; // N, S, E, W
-	int gridX = 0;
-	int gridY = 0;
+	char direction; // N, S, E, W
+	int gridX;
+	int gridY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,6 +18,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		direction = 'N'
 		this.gridX = x;
 		this.gridY = y;
 		
