@@ -29,7 +29,7 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 		/*
 		 *		 N
-		 *   xxxxxxxxx
+		 *   0xxxxxxxx
 		 *   xxxxxxxxx
 		 * W xxxxxxxxx E
 		 *   xxxxxxxxx
