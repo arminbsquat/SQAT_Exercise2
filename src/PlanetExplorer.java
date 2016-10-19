@@ -54,7 +54,7 @@ public class PlanetExplorer {
 				this.nextDirectionLeft();
 				break;
 			case 'r': 
-				this.direction = 'E';
+				this.nextDirectionRight();
 				break;
 			case 'f': 
 				this.posX = 2;
@@ -109,7 +109,9 @@ public class PlanetExplorer {
 		}
 	}
 	
-	
+	private void nextPositionForward() {
+		
+	}
 	
 }
 

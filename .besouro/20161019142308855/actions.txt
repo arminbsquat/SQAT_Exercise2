@@ -250,3 +250,9 @@ UnitTestCaseAction 1476878888530 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476878888531 TestPlanetExplorer.java OK
 RefactoringAction 1476878900523 PlanetExplorer.java ADD void nextDirectionRight() METHOD
 EditAction 1476878946539 PlanetExplorer.java 2484 4 10 0
+UnitTestCaseAction 1476878962792 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878962793 TestPlanetExplorer.java OK
+RefactoringAction 1476878980646 PlanetExplorer.java ADD void nextPosition FIELD
+RefactoringAction 1476878984153 PlanetExplorer.java RENAME nextPosition=>void nextPositionFordwar FIELD
+RefactoringAction 1476878986158 PlanetExplorer.java RENAME nextPositionFordwar=>void nextPositionForward() METHOD
+EditAction 1476878987844 PlanetExplorer.java 2531 5 10 0
