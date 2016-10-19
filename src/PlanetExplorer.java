@@ -28,13 +28,13 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		/*
-		 *		   S ++
+		 *		   S --
 		 *      0xxxxxxxx
 		 *      xxxxxxxxx
 		 * -- W xxxxxxxxx E ++
 		 *      xxxxxxxxx
 		 *      xxxxxxxxx
-		 *		   N --
+		 *		   N ++
 		 *
 		 */
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
