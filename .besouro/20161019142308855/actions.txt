@@ -576,3 +576,7 @@ EditAction 1476882867979 TestPlanetExplorer.java 2896 13 47 13
 RefactoringAction 1476882882445 TestPlanetExplorer.java ADD void executeCommand_CrashObstacle_At2_2() METHOD
 EditAction 1476882903279 TestPlanetExplorer.java 3160 14 53 13
 EditAction 1476882932210 TestPlanetExplorer.java 3182 14 47 13
+CompilationAction 1476882933840 TestPlanetExplorer.java
+CompilationAction 1476882933841 TestPlanetExplorer.java
+CompilationAction 1476882933842 TestPlanetExplorer.java
+EditAction 1476882943842 TestPlanetExplorer.java 3184 14 47 13
