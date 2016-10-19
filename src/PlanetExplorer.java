@@ -125,7 +125,7 @@ public class PlanetExplorer {
 			break;
 		case 'S':
 			this.posX--;
-			if(this.posX < 0) {
+			if(this.posX > 1000) {
 				this.posX = this.gridX; 
 			}
 			break;
