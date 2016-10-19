@@ -128,7 +128,21 @@ public class PlanetExplorer {
 	}
 	
 	private void nextPositionBackward() {
-		
+		switch(this.direction) {
+		case 'N': 
+			this.posX++;
+			break;
+		case 'W':
+			this.posY--;
+			break;
+		case 'S':
+			this.posX--;
+			break;
+		case 'E':
+			this.posY++;
+			break;
+		default: break;	
+		}
 	}
 }
 
