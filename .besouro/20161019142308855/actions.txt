@@ -427,3 +427,13 @@ UnitTestCaseAction 1476880610655 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476880610656 TestPlanetExplorer.java OK
 RefactoringAction 1476880617655 TestPlanetExplorer.java ADD void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_100To0_0()/2 METHOD
 EditAction 1476880618066 TestPlanetExplorer.java 2770 12 46 12
+CompilationAction 1476880620325 TestPlanetExplorer.java
+RefactoringAction 1476880626676 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBoundsForward_MovingFrom0_100To0_0()/2=>void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_To0_0() METHOD
+CompilationAction 1476880628453 TestPlanetExplorer.java
+RefactoringAction 1476880703243 TestPlanetExplorer.java ADD void create FIELD
+RefactoringAction 1476880705249 TestPlanetExplorer.java RENAME create=>void createObstacle_ FIELD
+RefactoringAction 1476880710264 TestPlanetExplorer.java RENAME createObstacle_=>void createObstacle FIELD
+RefactoringAction 1476880711269 TestPlanetExplorer.java RENAME createObstacle=>void createObstacle() METHOD
+RefactoringAction 1476880715286 TestPlanetExplorer.java RENAME createObstacle()=>void planetExplorer_createObstacle() METHOD
+RefactoringAction 1476880717791 TestPlanetExplorer.java RENAME planetExplorer_createObstacle()=>void PlanetExplorer_createObstacle() METHOD
+EditAction 1476880722058 TestPlanetExplorer.java 2826 13 46 12

@@ -104,7 +104,7 @@ public class TestPlanetExplorer {
 		assertEquals("00", ""+pE.posX+pE.posY);	
 	}
 	
-	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_100To0_0() {
+	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_To0_0() {
 		
 		pE.executeCommand("r");
 		
@@ -117,5 +117,8 @@ public class TestPlanetExplorer {
 		assertEquals("00", ""+pE.posX+pE.posY);	
 	}
 	
+	@Test public void PlanetExplorer_createObstacle() {
+		
+	}
 
 }
