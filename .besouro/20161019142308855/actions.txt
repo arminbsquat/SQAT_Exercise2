@@ -20,3 +20,4 @@ RefactoringAction 1476876676508 TestPlanetExplorer.java RENAME PlanetExplorer_co
 RefactoringAction 1476876679522 TestPlanetExplorer.java RENAME PlanetExplorer_correctInit()=>void PlanetExplorer_testcorrectInit() METHOD
 RefactoringAction 1476876680539 TestPlanetExplorer.java RENAME PlanetExplorer_testcorrectInit()=>void PlanetExplorer_testCorrectInit() METHOD
 EditAction 1476876684514 TestPlanetExplorer.java 238 2 1 0
+EditAction 1476876748828 TestPlanetExplorer.java 285 2 2 0
