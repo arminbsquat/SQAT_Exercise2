@@ -7,6 +7,8 @@ public class PlanetExplorer {
 	int posX = 0;
 	int posY = 0;
 	char direction = 'N'; // N, S, E, W
+	int gridX = 0;
+	int gridY = 0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.

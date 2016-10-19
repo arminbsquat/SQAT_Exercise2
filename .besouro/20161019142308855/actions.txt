@@ -54,3 +54,15 @@ EditAction 1476877149490 TestPlanetExplorer.java 348 2 3 1
 UnitTestCaseAction 1476877152838 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877152839 TestPlanetExplorer.java FAIL
 EditAction 1476877162442 TestPlanetExplorer.java 370 2 3 1
+CompilationAction 1476877163912 TestPlanetExplorer.java
+CompilationAction 1476877163913 TestPlanetExplorer.java
+CompilationAction 1476877163914 TestPlanetExplorer.java
+RefactoringAction 1476877199691 TestPlanetExplorer.java ADD void PlanetExplorer_ FIELD
+RefactoringAction 1476877203706 TestPlanetExplorer.java RENAME PlanetExplorer_=>void PlanetExplorer_test FIELD
+RefactoringAction 1476877208221 TestPlanetExplorer.java RENAME PlanetExplorer_test=>void PlanetExplorer_testCorr FIELD
+RefactoringAction 1476877211234 TestPlanetExplorer.java REMOVE PlanetExplorer_testCorr FIELD
+CompilationAction 1476877231968 TestPlanetExplorer.java
+CompilationAction 1476877231970 TestPlanetExplorer.java
+RefactoringAction 1476877248349 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476877253386 PlanetExplorer.java ADD int grid FIELD
+EditAction 1476877255598 PlanetExplorer.java 1386 2 1 0
