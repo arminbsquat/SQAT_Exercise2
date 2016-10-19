@@ -291,3 +291,12 @@ EditAction 1476879352798 TestPlanetExplorer.java 904 5 11 5
 UnitTestCaseAction 1476879355585 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879355586 TestPlanetExplorer.java FAIL
 EditAction 1476879366420 TestPlanetExplorer.java 904 5 11 5
+UnitTestCaseAction 1476879368921 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879368922 TestPlanetExplorer.java OK
+RefactoringAction 1476879382909 TestPlanetExplorer.java ADD void executeCommand_testMoving FIELD
+RefactoringAction 1476879385920 TestPlanetExplorer.java RENAME executeCommand_testMoving=>void executeCommand_testMovin FIELD
+RefactoringAction 1476879387426 TestPlanetExplorer.java RENAME executeCommand_testMovin=>void executeCommand_testMoving FIELD
+RefactoringAction 1476879389432 TestPlanetExplorer.java RENAME executeCommand_testMoving=>void executeCommand_testMovingTo FIELD
+RefactoringAction 1476879391436 TestPlanetExplorer.java RENAME executeCommand_testMovingTo=>void executeCommand_testMovingTo10 FIELD
+RefactoringAction 1476879393942 TestPlanetExplorer.java RENAME executeCommand_testMovingTo10=>void executeCommand_testMovingTo1010() METHOD
+EditAction 1476879396339 TestPlanetExplorer.java 967 6 11 5

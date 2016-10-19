@@ -31,5 +31,9 @@ public class TestPlanetExplorer {
 		pE.executeCommand("b");
 		assertEquals(1, pE.posX);
 	}
+	
+	@Test public void executeCommand_testMovingTo1010() {
+		
+	}
 
 }
