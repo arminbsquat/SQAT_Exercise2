@@ -110,7 +110,10 @@ public class PlanetExplorer {
 	}
 	
 	private void nextPositionForward() {
-		if(this.direction == 'N')
+		switch(this.direction) {
+		case 'N': 
+		
+		}
 	}
 	
 }

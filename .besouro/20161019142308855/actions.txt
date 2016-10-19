@@ -257,3 +257,5 @@ RefactoringAction 1476878984153 PlanetExplorer.java RENAME nextPosition=>void ne
 RefactoringAction 1476878986158 PlanetExplorer.java RENAME nextPositionFordwar=>void nextPositionForward() METHOD
 EditAction 1476878987844 PlanetExplorer.java 2531 5 10 0
 EditAction 1476879020782 PlanetExplorer.java 2556 5 10 0
+CompilationAction 1476879022110 PlanetExplorer.java
+EditAction 1476879051924 PlanetExplorer.java 2575 5 11 0
