@@ -4,8 +4,8 @@
 // Finish time:
 
 public class PlanetExplorer {
-	int posX = 0;
-	int posY = 0;
+	int posX;
+	int posY;
 	char direction; // N, S, E, W
 	int gridX;
 	int gridY;
@@ -17,8 +17,11 @@ public class PlanetExplorer {
 		Example use: For a 100x100 grid with two obstacles at coordinates (5,5) and (7,8)
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
+	 *
 	 */
-		direction = 'N'
+		this.posY = 0;
+		this.posX = 0;
+		this.direction = 'N';
 		this.gridX = x;
 		this.gridY = y;
 		
