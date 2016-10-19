@@ -51,14 +51,7 @@ public class PlanetExplorer {
 			switch(character) {
 			
 			case 'l': 
-				switch(this.direction) {
-				case 'N': 
-					break;
-				case 'W': break;
-				case 'S': break;
-				case 'E': break;
-				default: break;
-				}
+				this.nextDirectionLeft();
 				this.direction = 'W';
 				break;
 			case 'r': 
@@ -80,9 +73,19 @@ public class PlanetExplorer {
 		
 		return null;
 	}
-}
-
-private void nextDirection(char direction) {
+	
+	private void nextDirectionLeft() {
+		switch(this.direction) {
+		case 'N': 
+			break;
+		case 'W': break;
+		case 'S': break;
+		case 'E': break;
+		default: break;
+		}
+	}
 	
 }
+
+
 

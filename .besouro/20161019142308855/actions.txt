@@ -229,3 +229,11 @@ CompilationAction 1476878709450 PlanetExplorer.java
 RefactoringAction 1476878716759 PlanetExplorer.java ADD void nextDirection() METHOD
 RefactoringAction 1476878721777 PlanetExplorer.java RENAME nextDirection()=>void nextDirection(char) METHOD
 EditAction 1476878723689 PlanetExplorer.java 2102 3 8 0
+CompilationAction 1476878725034 PlanetExplorer.java
+CompilationAction 1476878725035 PlanetExplorer.java
+RefactoringAction 1476878732805 PlanetExplorer.java REMOVE nextDirection(char) METHOD
+RefactoringAction 1476878734816 PlanetExplorer.java ADD void nextDirection(char) METHOD
+CompilationAction 1476878735926 PlanetExplorer.java
+CompilationAction 1476878735926 PlanetExplorer.java
+RefactoringAction 1476878768370 PlanetExplorer.java RENAME nextDirection(char)=>void nextDirectionLeft(char) METHOD
+EditAction 1476878787104 PlanetExplorer.java 2111 3 9 0
