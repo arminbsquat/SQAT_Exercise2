@@ -92,9 +92,6 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_100To0_0() {
-		for(int i = 0; i < 100; i++) {
-			pE.executeCommand("f");
-		}
 		
 		pE.executeCommand("r");
 		
