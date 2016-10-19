@@ -113,6 +113,9 @@ public class PlanetExplorer {
 		switch(this.direction) {
 		case 'N': 
 			this.posX++;
+			if(this.posX < 0) {
+				this.posX = this.gridX; 
+			}
 			break;
 		case 'W':
 			this.posY--;

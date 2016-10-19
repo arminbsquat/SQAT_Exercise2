@@ -4,9 +4,10 @@
 1476878391808 refactoring 2A 98 true
 1476878888531 refactoring 2A 496 true
 1476878962793 production 3 74 false
-1476879228077 refactoring 2A 265 false
-1476879277522 regression 2 49 false
-1476879368922 production 1 91 false
-1476879522650 test-addition 2 153 false
-1476879562306 test-addition 1 39 false
-1476879563746 regression 1 1 false
+1476879228077 refactoring 2A 265 true
+1476879277522 regression 2 49 true
+1476879368922 production 1 91 true
+1476879522650 test-addition 2 153 true
+1476879562306 test-addition 1 39 true
+1476879563746 regression 1 1 true
+1476879786867 test-first 3 223 true
