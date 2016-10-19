@@ -508,3 +508,8 @@ EditAction 1476881552176 PlanetExplorer.java 3807 7 18 0
 EditAction 1476881592988 PlanetExplorer.java 3843 7 18 0
 RefactoringAction 1476881625236 Obstacle.java ADD Obstacle(int, int) METHOD
 EditAction 1476881632062 Obstacle.java 111 1 2 0
+CompilationAction 1476881633627 Obstacle.java
+CompilationAction 1476881633628 Obstacle.java
+CompilationAction 1476881649593 Obstacle.java
+CompilationAction 1476881649595 Obstacle.java
+EditAction 1476881684138 PlanetExplorer.java 3895 7 18 0

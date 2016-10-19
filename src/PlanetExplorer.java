@@ -37,12 +37,12 @@ public class PlanetExplorer {
 	private void initObs(String obstacles) {
 		char[] charObs = obstacles.toCharArray();
 		boolean start = false;
-		StringBuffer singleObstacle = new StringBuffer();
+		StringBuffer singleNumber = new StringBuffer();
 		
 		for(char character : charObs) {
 			
 			if(start) {
-				singleObstacle.append(character);
+				singleNumber.append(character);
 			}
 			
 			if(character == '(') {
@@ -53,7 +53,7 @@ public class PlanetExplorer {
 				start = false;
 			}
 			if(character == ',') {
-				
+				new Obstacle(Integer.parseInt(singleNumber.toString()));
 			}
 			
 
