@@ -464,3 +464,5 @@ RefactoringAction 1476880972629 Obstacles.java ADD int z FIELD
 RefactoringAction 1476880973635 Obstacles.java RENAME z=>int y FIELD
 EditAction 1476880975241 Obstacles.java 49 0 0 0
 EditAction 1476881010242 PlanetExplorer.java 3388 6 13 0
+CompilationAction 1476881011600 PlanetExplorer.java
+EditAction 1476881019223 PlanetExplorer.java 3389 6 13 0

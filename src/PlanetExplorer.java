@@ -24,7 +24,7 @@ public class PlanetExplorer {
 		 
 	 *
 	 */
-		obs = new Obstacle[10];
+		obs = new Obstacles[10];
 		this.posY = 0;
 		this.posX = 0;
 		this.direction = 'N';
