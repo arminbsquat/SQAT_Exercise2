@@ -35,3 +35,6 @@
 1476878293687 test-first 4 79 true
 1476878293688 test-first 4 79 true
 1476878391808 refactoring 2A 54 true
+1476878888531 refactoring 2A 452 true
+1476878888532 production 1 452 false
+1476878888533 production 2 452 false
