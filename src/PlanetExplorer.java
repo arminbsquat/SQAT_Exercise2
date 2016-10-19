@@ -24,10 +24,6 @@ public class PlanetExplorer {
 		this.direction = 'N';
 		this.gridX = x;
 		this.gridY = y;
-		
-		
-		
-		
 	}
 	
 	public String executeCommand(String command){
