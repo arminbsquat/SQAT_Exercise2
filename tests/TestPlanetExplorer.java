@@ -65,7 +65,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void executeCommand_testMovingOutOfBounds_MovingFrom1000To00() {
-		for(int i = 0; i< 100; i++) {
+		for(int i = 0; i < 100; i++) {
 			pE.executeCommand("f");
 		}
 		
