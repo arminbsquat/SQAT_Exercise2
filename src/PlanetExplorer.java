@@ -52,7 +52,9 @@ public class PlanetExplorer {
 			case 'r': 
 				this.direction = 'E';
 				break;
-			case 'f': break;
+			case 'f': 
+				
+				break;
 			case 'b': break;
 			default: break;
 			}
