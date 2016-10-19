@@ -189,3 +189,7 @@ EditAction 1476878443116 PlanetExplorer.java 1906 2 8 0
 EditAction 1476878459622 PlanetExplorer.java 1906 2 8 0
 EditAction 1476878514996 PlanetExplorer.java 2045 2 8 0
 EditAction 1476878531097 PlanetExplorer.java 2074 2 5 0
+CompilationAction 1476878532452 PlanetExplorer.java
+RefactoringAction 1476878559473 PlanetExplorer.java ADD char next() METHOD
+RefactoringAction 1476878566498 PlanetExplorer.java RENAME next()=>char next(char) METHOD
+EditAction 1476878566522 PlanetExplorer.java 2116 3 5 0

@@ -82,3 +82,8 @@ public class PlanetExplorer {
 		return null;
 	}
 }
+
+
+private char next(char direction) {
+	
+}
