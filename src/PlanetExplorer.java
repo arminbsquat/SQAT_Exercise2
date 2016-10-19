@@ -19,6 +19,8 @@ public class PlanetExplorer {
 		 
 	 *
 	 */
+		
+		
 		this.posY = 0;
 		this.posX = 0;
 		this.direction = 'N';
