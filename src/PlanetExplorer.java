@@ -54,7 +54,7 @@ public class PlanetExplorer {
 				break;
 			case 'f': 
 				if(this.direction == 'N' || this.direction == 'S') {
-					
+					this.posX++;
 				}
 				
 				this.posX = 2;
