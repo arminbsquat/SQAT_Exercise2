@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		/*						 y
+		/*					 y
 		 *		   S --
 		 *      0xxxxxxxx
 		 *      xxxxxxxxx
