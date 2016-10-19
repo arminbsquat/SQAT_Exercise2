@@ -52,7 +52,9 @@ public class PlanetExplorer {
 			
 			case 'l': 
 				switch(this.direction) {
-				case 'N': break;
+				case 'N': 
+					this.direction = 
+					break;
 				case 'W': break;
 				case 'S': break;
 				case 'E': break;
