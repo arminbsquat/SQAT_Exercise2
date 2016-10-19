@@ -17,7 +17,8 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void executeCommand_testRotationLeft_ChangeDirectionFromNToE() {
-		pE.executeCommand("");
+		pE.executeCommand("l");
+		
 	}
 	
 
