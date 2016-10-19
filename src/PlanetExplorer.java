@@ -43,8 +43,13 @@ public class PlanetExplorer {
 			if(character == '(') {
 				end = false;
 				singleObstacle.append(character);
-				
 			}
+			
+			if(character == ')') {
+				end = true;
+				singleObstacle.append(character);
+			}
+			
 		}
 		
 	}
