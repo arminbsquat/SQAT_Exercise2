@@ -35,6 +35,7 @@ public class PlanetExplorer {
 	}
 	
 	private void initObs(String obstacles) {
+		int i = 0;
 		char[] charObs = obstacles.toCharArray();
 		boolean start = false;
 		StringBuffer singleNumber = new StringBuffer();
@@ -60,7 +61,8 @@ public class PlanetExplorer {
 				start = false;
 				String b = singleNumber.toString().substring(0, singleNumber.length()-1);
 				y = Integer.parseInt(b);
-				
+				this.obs[i] = new Obstacle(x,y);
+				i++;
 			}
 
 			
