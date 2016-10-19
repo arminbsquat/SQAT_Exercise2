@@ -330,3 +330,4 @@ RefactoringAction 1476879588800 TestPlanetExplorer.java RENAME executeCommand_te
 RefactoringAction 1476879597318 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBounds_MovingFrom00To=>void executeCommand_testMovingOutOfBounds_MovingFrom00To0100() METHOD
 EditAction 1476879600678 TestPlanetExplorer.java 1567 8 27 7
 EditAction 1476879610163 TestPlanetExplorer.java 1590 8 28 7
+EditAction 1476879621683 TestPlanetExplorer.java 1664 8 30 8
