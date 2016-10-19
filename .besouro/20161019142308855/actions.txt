@@ -386,3 +386,4 @@ UnitTestSessionAction 1476880238018 TestPlanetExplorer.java OK
 RefactoringAction 1476880246092 TestPlanetExplorer.java ADD void executeCommand_testMovingOutOfBounds_MovingFrom100_0To0_0()/2 METHOD
 RefactoringAction 1476880252608 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBounds_MovingFrom100_0To0_0()/2=>void executeCommand_testMovingOutOfBounds_MovingFrom100_100To0_0() METHOD
 EditAction 1476880253656 TestPlanetExplorer.java 2126 10 36 10
+EditAction 1476880271555 TestPlanetExplorer.java 2126 10 36 10
