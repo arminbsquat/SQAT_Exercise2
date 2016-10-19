@@ -70,7 +70,7 @@ public class TestPlanetExplorer {
 		}
 		
 		
-		assertEquals("0100", ""+pE.posX+pE.posY);	
+		assertEquals("1000", ""+pE.posX+pE.posY);	
 	}
 
 }
