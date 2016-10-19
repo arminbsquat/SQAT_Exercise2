@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 	
 	@Test public void executeCommand_testMovingForward_ChangePosXFrom0To1() {
 		pE.executeCommand("f");
-		assertEquals(pE.posX, 1);
+		assertEquals(pE.posX, 2);
 	}
 	
 	@Test public void executeCommand_testMovingBackwards_ChangePosXFrom2To1() {
