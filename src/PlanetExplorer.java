@@ -13,7 +13,7 @@ public class PlanetExplorer {
 	char direction; // N, S, E, W
 	int gridX;
 	int gridY;
-	Obstacles[] obs;
+	Obstacle[] obs;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -24,7 +24,7 @@ public class PlanetExplorer {
 		 
 	 *
 	 */
-		obs = new Obstacles[10];
+		obs = new Obstacle[10];
 		this.posY = 0;
 		this.posX = 0;
 		this.direction = 'N';
