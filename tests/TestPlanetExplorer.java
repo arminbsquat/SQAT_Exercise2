@@ -82,6 +82,9 @@ public class TestPlanetExplorer {
 		
 		pE.executeCommand("r");
 		
+		for(int i = 0; i < 100; i++) {
+			pE.executeCommand("f");
+		}
 		
 		assertEquals("00", ""+pE.posX+pE.posY);	
 	}
