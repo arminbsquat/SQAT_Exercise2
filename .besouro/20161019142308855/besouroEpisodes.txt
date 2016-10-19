@@ -54,3 +54,5 @@
 1476879786867 test-first 3 212 true
 1476879786868 test-first 3 212 true
 1476879902679 refactoring 2A 104 true
+1476880068971 test-addition 2 159 true
+1476880068972 test-addition 1 159 true
