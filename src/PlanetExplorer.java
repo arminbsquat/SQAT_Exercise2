@@ -52,6 +52,9 @@ public class PlanetExplorer {
 			if(character == ')') {
 				start = false;
 			}
+			if(character == ',') {
+				
+			}
 			
 
 
