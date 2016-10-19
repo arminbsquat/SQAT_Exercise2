@@ -39,7 +39,7 @@ public class TestPlanetExplorer {
 		pE.executeCommand("f");
 		pE.executeCommand("f");
 		
-		assertEquals("2+2", ""+pE.posX+pE.posY);
+		assertEquals("22", ""+pE.posX+pE.posY);
 		
 	}
 

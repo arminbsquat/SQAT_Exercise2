@@ -306,3 +306,6 @@ RefactoringAction 1476879403457 TestPlanetExplorer.java RENAME executeCommand_te
 RefactoringAction 1476879453526 TestPlanetExplorer.java RENAME executeCommand_testMovingTo3_3()=>void executeCommand_testMovingTo2_2() METHOD
 EditAction 1476879454447 TestPlanetExplorer.java 966 6 11 5
 EditAction 1476879509525 TestPlanetExplorer.java 1142 6 17 6
+UnitTestCaseAction 1476879512578 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879512579 TestPlanetExplorer.java FAIL
+EditAction 1476879519909 TestPlanetExplorer.java 1141 6 17 6
