@@ -42,5 +42,20 @@ public class TestPlanetExplorer {
 		assertEquals("22", ""+pE.posX+pE.posY);
 		
 	}
+	
+	@Test public void executeCommand_testMovingTo3_5() {
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("r");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		
+		assertEquals("22", ""+pE.posX+pE.posY);
+		
+	}
 
 }
