@@ -47,9 +47,11 @@ public class PlanetExplorer {
 			switch(character) {
 			
 			case 'l': 
-				
+				this.direction = 'W';
 				break;
-			case 'r': break;
+			case 'r': 
+				this.direction = 'E';
+				break;
 			case 'f': break;
 			case 'b': break;
 			default: break;
@@ -57,7 +59,7 @@ public class PlanetExplorer {
 		}
 		
 		
-		this.direction = 'W';
+		
 		
 		return null;
 	}
