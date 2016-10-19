@@ -10,3 +10,13 @@ RefactoringAction 1476876574517 PlanetExplorer.java ADD String direction FIELD
 EditAction 1476876577647 PlanetExplorer.java 1341 2 1 0
 EditAction 1476876592580 PlanetExplorer.java 1354 2 1 0
 EditAction 1476876620738 PlanetExplorer.java 1352 2 1 0
+CompilationAction 1476876622692 PlanetExplorer.java
+CompilationAction 1476876625984 PlanetExplorer.java
+FileOpenedAction 1476876644901 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1476876667948 TestPlanetExplorer.java ADD void PlanetExplorer FIELD
+RefactoringAction 1476876672975 TestPlanetExplorer.java RENAME PlanetExplorer=>void PlanetExplorer_correctly_ FIELD
+RefactoringAction 1476876674489 TestPlanetExplorer.java RENAME PlanetExplorer_correctly_=>void PlanetExplorer_correc FIELD
+RefactoringAction 1476876676508 TestPlanetExplorer.java RENAME PlanetExplorer_correc=>void PlanetExplorer_correctInit() METHOD
+RefactoringAction 1476876679522 TestPlanetExplorer.java RENAME PlanetExplorer_correctInit()=>void PlanetExplorer_testcorrectInit() METHOD
+RefactoringAction 1476876680539 TestPlanetExplorer.java RENAME PlanetExplorer_testcorrectInit()=>void PlanetExplorer_testCorrectInit() METHOD
+EditAction 1476876684514 TestPlanetExplorer.java 238 2 1 0
