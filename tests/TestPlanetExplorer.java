@@ -13,6 +13,6 @@ public class TestPlanetExplorer {
 	@Test public void PlanetExplorer_testCorrectInit() {
 		PlanetExplorer pE = new PlanetExplorer(100,100,"");
 		
-		assertEquals(new String(pE.posX+pE.posY+pE.direction), "00N");
+		assertEquals(pE.posX+pE.posY+new String(pE.direction), "00N");
 	}
 }
