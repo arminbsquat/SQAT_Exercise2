@@ -423,3 +423,7 @@ EditAction 1476880592117 TestPlanetExplorer.java 2570 11 43 11
 UnitTestCaseAction 1476880594052 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880594053 TestPlanetExplorer.java FAIL
 EditAction 1476880607800 TestPlanetExplorer.java 2506 11 42 11
+UnitTestCaseAction 1476880610655 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880610656 TestPlanetExplorer.java OK
+RefactoringAction 1476880617655 TestPlanetExplorer.java ADD void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_100To0_0()/2 METHOD
+EditAction 1476880618066 TestPlanetExplorer.java 2770 12 46 12
