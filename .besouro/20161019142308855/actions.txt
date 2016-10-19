@@ -175,3 +175,4 @@ RefactoringAction 1476878260677 TestPlanetExplorer.java RENAME executeCommand_te
 RefactoringAction 1476878264182 TestPlanetExplorer.java RENAME executeCommand_testMovingBackwards_ChangePosXFrom0To()=>void executeCommand_testMovingBackwards_ChangePosXFrom2To() METHOD
 EditAction 1476878264789 TestPlanetExplorer.java 852 5 9 5
 EditAction 1476878278320 TestPlanetExplorer.java 910 5 11 5
+EditAction 1476878290151 PlanetExplorer.java 1823 2 8 0

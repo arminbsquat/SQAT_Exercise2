@@ -55,7 +55,9 @@ public class PlanetExplorer {
 			case 'f': 
 				this.posX = 2;
 				break;
-			case 'b': break;
+			case 'b': 
+				this.posY = 1;
+				break;
 			default: break;
 			}
 		}
