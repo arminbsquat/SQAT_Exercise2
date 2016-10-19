@@ -63,5 +63,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("0100", ""+pE.posX+pE.posY);	
 	}
+	
+	@Test public void executeCommand_testMovingOutOfBounds_MovingFrom00To0100() {
+		pE.executeCommand("l");
+		pE.executeCommand("f");
+		
+		assertEquals("0100", ""+pE.posX+pE.posY);	
+	}
 
 }
