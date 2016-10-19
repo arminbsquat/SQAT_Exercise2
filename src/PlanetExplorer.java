@@ -42,12 +42,13 @@ public class PlanetExplorer {
 		for(char character : charObs) {
 			if(character == '(') {
 				end = false;
-				singleObstacle.append(character);
 			}
 			
+			if(end) {
+				singleObstacle.append(character);
+			}
 			if(character == ')') {
 				end = true;
-				singleObstacle.append(character);
 			}
 			
 		}
