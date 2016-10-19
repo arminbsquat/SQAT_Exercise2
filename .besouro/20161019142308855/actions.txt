@@ -137,3 +137,17 @@ EditAction 1476878012066 PlanetExplorer.java 1744 2 9 0
 EditAction 1476878035610 PlanetExplorer.java 1775 2 8 0
 EditAction 1476878055968 PlanetExplorer.java 1781 2 8 0
 EditAction 1476878060307 PlanetExplorer.java 1775 2 8 0
+UnitTestCaseAction 1476878062407 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878062409 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476878063982 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878063983 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878078360 TestPlanetExplorer.java ADD void executeCommand_testRotationRight_ChangeDirectionFromNToE()/2 METHOD
+RefactoringAction 1476878081368 TestPlanetExplorer.java RENAME executeCommand_testRotationRight_ChangeDirectionFromNToE()/2=>void executeCommand_testRotationRigh_ChangeDirectionFromNToE() METHOD
+RefactoringAction 1476878083374 TestPlanetExplorer.java RENAME executeCommand_testRotationRigh_ChangeDirectionFromNToE()=>void executeCommand_testR_ChangeDirectionFromNToE() METHOD
+RefactoringAction 1476878084378 TestPlanetExplorer.java RENAME executeCommand_testR_ChangeDirectionFromNToE()=>void executeCommand_test_ChangeDirectionFromNToE() METHOD
+RefactoringAction 1476878091388 TestPlanetExplorer.java RENAME executeCommand_test_ChangeDirectionFromNToE()=>void executeCommand_testMovingForward_ChangeDirectionFromNToE() METHOD
+RefactoringAction 1476878097400 TestPlanetExplorer.java RENAME executeCommand_testMovingForward_ChangeDirectionFromNToE()=>void executeCommand_testMovingForward_Change() METHOD
+RefactoringAction 1476878098905 TestPlanetExplorer.java RENAME executeCommand_testMovingForward_Change()=>void executeCommand_testMovingForward_ChangePosX() METHOD
+RefactoringAction 1476878099911 TestPlanetExplorer.java RENAME executeCommand_testMovingForward_ChangePosX()=>void executeCommand_testMovingForward_ChangePosXFrom() METHOD
+RefactoringAction 1476878101929 TestPlanetExplorer.java RENAME executeCommand_testMovingForward_ChangePosXFrom()=>void executeCommand_testMovingForward_ChangePosXFrom0To1() METHOD
+EditAction 1476878102221 TestPlanetExplorer.java 806 5 8 4
