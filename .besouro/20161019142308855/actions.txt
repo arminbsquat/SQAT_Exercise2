@@ -22,3 +22,4 @@ RefactoringAction 1476876680539 TestPlanetExplorer.java RENAME PlanetExplorer_te
 EditAction 1476876684514 TestPlanetExplorer.java 238 2 1 0
 EditAction 1476876748828 TestPlanetExplorer.java 285 2 2 0
 EditAction 1476876781905 TestPlanetExplorer.java 289 2 2 0
+EditAction 1476876877467 TestPlanetExplorer.java 345 2 3 1
