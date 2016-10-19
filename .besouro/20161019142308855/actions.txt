@@ -66,3 +66,6 @@ CompilationAction 1476877231970 TestPlanetExplorer.java
 RefactoringAction 1476877248349 PlanetExplorer.java ADD int gridX FIELD
 RefactoringAction 1476877253386 PlanetExplorer.java ADD int grid FIELD
 EditAction 1476877255598 PlanetExplorer.java 1386 2 1 0
+CompilationAction 1476877257001 TestPlanetExplorer.java
+CompilationAction 1476877263659 TestPlanetExplorer.java
+EditAction 1476877268060 TestPlanetExplorer.java 378 2 3 1
