@@ -28,13 +28,13 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		/*
-		 *		 N
-		 *   0xxxxxxxx
-		 *   xxxxxxxxx
-		 * W xxxxxxxxx E
-		 *   xxxxxxxxx
-		 *   xxxxxxxxx
-		 *		 S
+		 *		   N --
+		 *      0xxxxxxxx
+		 *      xxxxxxxxx
+		 * -- W xxxxxxxxx E ++
+		 *      xxxxxxxxx
+		 *      xxxxxxxxx
+		 *		   S ++
 		 */
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -57,7 +57,7 @@ public class PlanetExplorer {
 				this.nextDirectionRight();
 				break;
 			case 'f': 
-				this.posX = 2;
+				this.nextPositionForward();
 				break;
 			case 'b': 
 				this.posY = 1;
