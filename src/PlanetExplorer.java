@@ -13,7 +13,7 @@ public class PlanetExplorer {
 	char direction; // N, S, E, W
 	int gridX;
 	int gridY;
-	Obstacle[] obs;
+	ArrayList<Obstacle> obs;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
