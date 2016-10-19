@@ -467,3 +467,14 @@ EditAction 1476881010242 PlanetExplorer.java 3388 6 13 0
 CompilationAction 1476881011600 PlanetExplorer.java
 EditAction 1476881019223 PlanetExplorer.java 3389 6 13 0
 EditAction 1476881025142 PlanetExplorer.java 3387 6 13 0
+CompilationAction 1476881026440 PlanetExplorer.java
+CompilationAction 1476881026441 TestPlanetExplorer.java
+RefactoringAction 1476881042065 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1476881042163 Obstacle.java 32 0 0 0
+CompilationAction 1476881042242 TestPlanetExplorer.java
+RefactoringAction 1476881046672 Obstacles.java REMOVE y FIELD
+RefactoringAction 1476881046673 Obstacles.java REMOVE x FIELD
+RefactoringAction 1476881048161 Obstacle.java ADD int x FIELD
+RefactoringAction 1476881048161 Obstacle.java ADD int y FIELD
+RefactoringAction 1476881054263 Obstacles.java REMOVE Obstacles.java CLASS
+EditAction 1476881059544 Obstacle.java 48 0 0 0
