@@ -40,16 +40,8 @@ public class PlanetExplorer {
 		StringBuffer singleObstacle = new StringBuffer();
 		
 		for(char character : charObs) {
-			if(character == '(') {
-				start = true;
-			}
 			
-			if(start) {
-				singleObstacle.append(character);
-			}
-			if(character == ')') {
-				start = false;
-			}
+			
 			
 		}
 		
