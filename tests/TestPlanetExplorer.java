@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
+//
 public class TestPlanetExplorer {
 	PlanetExplorer pE = new PlanetExplorer(100,100,"(10,10)");
 	
