@@ -118,7 +118,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void PlanetExplorer_createObstacle() {
-		assertEquals(this.obs[0].X+this.obs[0].Y, ""+10+"_"+10);
+		assertEquals(pE.obs[0].x+pE.obs[0].y, ""+10+"_"+10);
 	}
 
 }

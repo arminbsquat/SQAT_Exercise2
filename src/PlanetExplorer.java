@@ -24,6 +24,8 @@ public class PlanetExplorer {
 		 
 	 *
 	 */
+		this.initObs(obstacles);
+		
 		obs = new Obstacle[10];
 		this.posY = 0;
 		this.posX = 0;
@@ -32,6 +34,11 @@ public class PlanetExplorer {
 		this.gridY = y;
 	}
 	
+	private void initObs(String obstacles) {
+		char[] charObs = obstacles.toCharArray();
+		
+	}
+
 	public String executeCommand(String command){
 		/*					 y
 		 *		   S --
