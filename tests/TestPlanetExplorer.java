@@ -6,9 +6,7 @@ public class TestPlanetExplorer {
 	PlanetExplorer pE = new PlanetExplorer(100,100,"");
 	
 	
-	@Test public void PlanetExplorer_testCorrectInit() {
-		
-		
+	@Test public void PlanetExplorer_testCorrectInit() {	
 		assertEquals(""+pE.posX+pE.posY+pE.direction+pE.gridX+pE.gridY, "00N100100");
 	}
 	
