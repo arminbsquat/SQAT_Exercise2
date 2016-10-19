@@ -374,3 +374,10 @@ EditAction 1476880173134 PlanetExplorer.java 3273 6 12 0
 EditAction 1476880178760 PlanetExplorer.java 3264 6 12 0
 EditAction 1476880194364 PlanetExplorer.java 3264 6 12 0
 EditAction 1476880204893 PlanetExplorer.java 3264 6 12 0
+UnitTestCaseAction 1476880207457 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880207458 TestPlanetExplorer.java OK
+RefactoringAction 1476880226563 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBounds_MovingFrom1000To00()=>void executeCommand_testMovingOutOfBounds_MovingFrom100_0To00() METHOD
+RefactoringAction 1476880228568 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBounds_MovingFrom100_0To00()=>void executeCommand_testMovingOutOfBounds_MovingFrom100_0To0_0() METHOD
+RefactoringAction 1476880232072 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBounds_MovingFrom00To0100()=>void executeCommand_testMovingOutOfBounds_MovingFrom00To0_100() METHOD
+RefactoringAction 1476880234577 TestPlanetExplorer.java RENAME executeCommand_testMovingOutOfBounds_MovingFrom00To0_100()=>void executeCommand_testMovingOutOfBounds_MovingFrom0_0To0_100() METHOD
+EditAction 1476880235344 TestPlanetExplorer.java 1894 9 33 9
