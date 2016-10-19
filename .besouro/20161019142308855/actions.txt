@@ -6,3 +6,5 @@ RefactoringAction 1476876534386 PlanetExplorer.java RENAME pos=>int posY FIELD
 EditAction 1476876535127 PlanetExplorer.java 1314 2 1 0
 RefactoringAction 1476876543467 PlanetExplorer.java ADD boolean turned FIELD
 EditAction 1476876549679 PlanetExplorer.java 1316 2 1 0
+RefactoringAction 1476876574517 PlanetExplorer.java ADD String direction FIELD
+EditAction 1476876577647 PlanetExplorer.java 1341 2 1 0
