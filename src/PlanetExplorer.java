@@ -131,6 +131,9 @@ public class PlanetExplorer {
 			break;
 		case 'E':
 			this.posY++;
+			if(this.posY < 0) {
+				this.posY = this.gridY; 
+			}
 			break;
 		default: break;	
 		}
