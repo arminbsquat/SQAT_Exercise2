@@ -202,3 +202,13 @@ CompilationAction 1476878601329 PlanetExplorer.java
 RefactoringAction 1476878626104 PlanetExplorer.java ADD char nextDicrection() METHOD
 RefactoringAction 1476878632617 PlanetExplorer.java RENAME nextDicrection()=>char nextDicrection(char) METHOD
 EditAction 1476878661617 PlanetExplorer.java 2114 3 9 0
+CompilationAction 1476878663058 PlanetExplorer.java
+CompilationAction 1476878663059 PlanetExplorer.java
+CompilationAction 1476878663060 PlanetExplorer.java
+CompilationAction 1476878667071 PlanetExplorer.java
+CompilationAction 1476878667072 PlanetExplorer.java
+CompilationAction 1476878667073 PlanetExplorer.java
+CompilationAction 1476878667201 PlanetExplorer.java
+CompilationAction 1476878667202 PlanetExplorer.java
+CompilationAction 1476878667203 PlanetExplorer.java
+EditAction 1476878673868 PlanetExplorer.java 2119 3 9 0
