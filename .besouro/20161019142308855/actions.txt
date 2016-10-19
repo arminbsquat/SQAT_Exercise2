@@ -444,3 +444,22 @@ EditAction 1476880853693 TestPlanetExplorer.java 2889 13 47 13
 CompilationAction 1476880855105 TestPlanetExplorer.java
 RefactoringAction 1476880871123 PlanetExplorer.java ADD Obstacles FIELD
 EditAction 1476880871973 PlanetExplorer.java 3355 6 12 0
+CompilationAction 1476880873256 PlanetExplorer.java
+CompilationAction 1476880873257 TestPlanetExplorer.java
+RefactoringAction 1476880884667 PlanetExplorer.java ADD Class Obstacle FIELD
+RefactoringAction 1476880885678 PlanetExplorer.java ADD int posX FIELD
+RefactoringAction 1476880885679 PlanetExplorer.java ADD int posY FIELD
+RefactoringAction 1476880885679 PlanetExplorer.java ADD char direction FIELD
+RefactoringAction 1476880885680 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476880885681 PlanetExplorer.java ADD int gridY FIELD
+RefactoringAction 1476880885681 PlanetExplorer.java ADD Obstacles FIELD
+RefactoringAction 1476880895691 PlanetExplorer.java REMOVE Obstacle FIELD
+CompilationAction 1476880949773 PlanetExplorer.java
+CompilationAction 1476880949970 PlanetExplorer.java
+RefactoringAction 1476880956958 Obstacles.java ADD Obstacles.java CLASS
+FileOpenedAction 1476880957070 Obstacles.java 33 0 0 0
+CompilationAction 1476880957108 TestPlanetExplorer.java
+RefactoringAction 1476880964614 Obstacles.java ADD int x FIELD
+RefactoringAction 1476880972629 Obstacles.java ADD int z FIELD
+RefactoringAction 1476880973635 Obstacles.java RENAME z=>int y FIELD
+EditAction 1476880975241 Obstacles.java 49 0 0 0
