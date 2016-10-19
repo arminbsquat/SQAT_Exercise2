@@ -58,7 +58,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void executeCommand_testMovingOutOfBounds_MovingFrom00To0100() {
-		
+		pE.executeCommand("l");
 	}
 
 }
