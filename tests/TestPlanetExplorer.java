@@ -33,6 +33,13 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void executeCommand_testMovingTo2_2() {
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("r");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		
+		assertEquals("2+2", ""+pE.posX+pE.posY);
 		
 	}
 
