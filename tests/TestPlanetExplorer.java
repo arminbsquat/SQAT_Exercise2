@@ -16,12 +16,12 @@ public class TestPlanetExplorer {
 		assertEquals(""+pE.posX+pE.posY+pE.direction+pE.gridX+pE.gridY, "00N100100");
 	}
 	
-	@Test public void executeCommand_testRotationLeft_ChangeDirectionFromNToE() {
+	@Test public void executeCommand_testRotationLeft_ChangeDirectionFromNToW() {
 		pE.executeCommand("l");
 		assertEquals(pE.direction, 'L');
 	}
 	
-	@Test public void executeCommand_testRotationRight_ChangeDirectionFromNToW() {
+	@Test public void executeCommand_testRotationRight_ChangeDirectionFromNToE() {
 		pE.executeCommand("l");
 		assertEquals(pE.direction, 'L');
 	}

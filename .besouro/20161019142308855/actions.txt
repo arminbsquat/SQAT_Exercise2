@@ -113,3 +113,5 @@ RefactoringAction 1476877662460 TestPlanetExplorer.java RENAME executeCommand_te
 RefactoringAction 1476877664474 TestPlanetExplorer.java RENAME executeCommand_testRotationLef_ChangeDirectionFromNToE()=>void executeCommand_testRotationRight_ChangeDirectionFromNToE() METHOD
 RefactoringAction 1476877667486 TestPlanetExplorer.java RENAME executeCommand_testRotationRight_ChangeDirectionFromNToE()=>void executeCommand_testRotationRight_ChangeDirectionFromNTo() METHOD
 EditAction 1476877669754 TestPlanetExplorer.java 665 4 6 3
+RefactoringAction 1476877679505 TestPlanetExplorer.java RENAME executeCommand_testRotationLeft_ChangeDirectionFromNToE()=>void executeCommand_testRotationLeft_ChangeDirectionFromNToW() METHOD
+EditAction 1476877681987 TestPlanetExplorer.java 665 4 6 3
