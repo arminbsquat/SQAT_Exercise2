@@ -57,14 +57,14 @@ public class TestPlanetExplorer {
 		assertEquals("35", ""+pE.posX+pE.posY);	
 	}
 	
-	@Test public void executeCommand_testMovingOutOfBounds_MovingFrom0_0To0_100() {
+	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_0To0_100() {
 		pE.executeCommand("l");
 		pE.executeCommand("f");
 		
 		assertEquals("0100", ""+pE.posX+pE.posY);	
 	}
 	
-	@Test public void executeCommand_testMovingOutOfBounds_MovingFrom100_0To0_0() {
+	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom100_0To0_0() {
 		for(int i = 0; i < 100; i++) {
 			pE.executeCommand("f");
 		}
@@ -75,7 +75,7 @@ public class TestPlanetExplorer {
 		assertEquals("00", ""+pE.posX+pE.posY);	
 	}
 	
-	@Test public void executeCommand_testMovingOutOfBounds_MovingFrom100_100To0_0() {
+	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom100_100To0_0() {
 		for(int i = 0; i < 100; i++) {
 			pE.executeCommand("f");
 		}
