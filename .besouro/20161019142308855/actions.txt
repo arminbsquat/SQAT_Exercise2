@@ -441,3 +441,6 @@ EditAction 1476880768097 TestPlanetExplorer.java 2884 13 47 12
 UnitTestCaseAction 1476880770261 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476880770262 TestPlanetExplorer.java OK
 EditAction 1476880853693 TestPlanetExplorer.java 2889 13 47 13
+CompilationAction 1476880855105 TestPlanetExplorer.java
+RefactoringAction 1476880871123 PlanetExplorer.java ADD Obstacles FIELD
+EditAction 1476880871973 PlanetExplorer.java 3355 6 12 0
