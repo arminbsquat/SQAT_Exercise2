@@ -77,6 +77,7 @@ public class PlanetExplorer {
 	private void nextDirectionLeft() {
 		switch(this.direction) {
 		case 'N': 
+			
 			break;
 		case 'W': break;
 		case 'S': break;
