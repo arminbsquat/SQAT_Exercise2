@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 		pE.executeCommand("f");
 		pE.executeCommand("f");
 		pE.executeCommand("b");
-		assertEquals(2, pE.posX);
+		assertEquals(1, pE.posX);
 	}
 
 }
