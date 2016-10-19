@@ -91,5 +91,21 @@ public class TestPlanetExplorer {
 		assertEquals("1000", ""+pE.posX+pE.posY);	
 	}
 	
+	@Test public void executeCommand_testMovingOutOfBoundsForward_MovingFrom0_100To0_0() {
+		for(int i = 0; i < 100; i++) {
+			pE.executeCommand("f");
+		}
+		
+		pE.executeCommand("r");
+		
+		for(int i = 0; i < 100; i++) {
+			pE.executeCommand("f");
+		}
+		
+		pE.executeCommand("f");
+		
+		assertEquals("1000", ""+pE.posX+pE.posY);	
+	}
+	
 
 }
