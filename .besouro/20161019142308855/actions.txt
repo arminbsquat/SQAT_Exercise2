@@ -314,3 +314,4 @@ UnitTestSessionAction 1476879522650 TestPlanetExplorer.java OK
 RefactoringAction 1476879533164 TestPlanetExplorer.java ADD void executeCommand_testMovingTo2_2()/2 METHOD
 RefactoringAction 1476879538189 TestPlanetExplorer.java RENAME executeCommand_testMovingTo2_2()/2=>void executeCommand_testMovingTo3_5() METHOD
 EditAction 1476879555633 TestPlanetExplorer.java 1482 7 27 7
+EditAction 1476879559483 TestPlanetExplorer.java 1482 7 27 7
