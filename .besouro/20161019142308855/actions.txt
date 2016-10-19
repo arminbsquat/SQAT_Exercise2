@@ -106,3 +106,10 @@ UnitTestCaseAction 1476877614527 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877614527 TestPlanetExplorer.java FAIL
 EditAction 1476877627686 PlanetExplorer.java 1447 2 6 0
 EditAction 1476877650589 PlanetExplorer.java 1474 2 7 0
+UnitTestCaseAction 1476877654243 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877654244 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877660446 TestPlanetExplorer.java ADD void executeCommand_testRotationLeft_ChangeDirectionFromNToE()/2 METHOD
+RefactoringAction 1476877662460 TestPlanetExplorer.java RENAME executeCommand_testRotationLeft_ChangeDirectionFromNToE()/2=>void executeCommand_testRotationLef_ChangeDirectionFromNToE() METHOD
+RefactoringAction 1476877664474 TestPlanetExplorer.java RENAME executeCommand_testRotationLef_ChangeDirectionFromNToE()=>void executeCommand_testRotationRight_ChangeDirectionFromNToE() METHOD
+RefactoringAction 1476877667486 TestPlanetExplorer.java RENAME executeCommand_testRotationRight_ChangeDirectionFromNToE()=>void executeCommand_testRotationRight_ChangeDirectionFromNTo() METHOD
+EditAction 1476877669754 TestPlanetExplorer.java 665 4 6 3
