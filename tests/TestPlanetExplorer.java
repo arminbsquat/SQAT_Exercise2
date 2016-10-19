@@ -129,7 +129,7 @@ public class TestPlanetExplorer {
 		pE.executeCommand("f");
 		pE.executeCommand("f");
 		
-		
+		assertEquals(""+2+1, )
 		
 		
 		
