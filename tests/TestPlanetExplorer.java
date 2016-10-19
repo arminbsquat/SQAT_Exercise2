@@ -122,6 +122,11 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test public void executeCommand_CrashObstacle_At2_2() {
+		pE.executeCommand("f");
+		pE.executeCommand("f");
+		pE.executeCommand("r");
+		pE.executeCommand("f");
+		pE.executeCommand("f");
 		
 	}
 

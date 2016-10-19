@@ -8,7 +8,7 @@ public class PlanetExplorer {
 	
 
 	
-	
+
 	int posX;
 	int posY;
 	char direction; // N, S, E, W

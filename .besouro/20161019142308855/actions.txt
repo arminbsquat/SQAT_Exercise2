@@ -568,3 +568,6 @@ RefactoringAction 1476882709789 TestPlanetExplorer.java RENAME executeCommand_Cr
 RefactoringAction 1476882712294 TestPlanetExplorer.java RENAME executeCommand_CrashObstacle_At=>void executeCommand_CrashObstacle_At2_2 FIELD
 RefactoringAction 1476882714799 TestPlanetExplorer.java RENAME executeCommand_CrashObstacle_At2_2=>void executeCommand_CrashObstacle_At2_2() METHOD
 EditAction 1476882715571 TestPlanetExplorer.java 2959 14 47 13
+UnitTestCaseAction 1476882830881 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476882830882 TestPlanetExplorer.java OK
+EditAction 1476882858795 TestPlanetExplorer.java 3089 14 52 13
