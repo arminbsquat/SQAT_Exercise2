@@ -44,6 +44,7 @@ public class PlanetExplorer {
 		char[] charCommand = command.toCharArray();
 		
 		
+		
 		this.direction = 'W';
 		
 		return null;
