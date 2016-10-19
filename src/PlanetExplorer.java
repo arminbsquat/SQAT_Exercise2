@@ -50,13 +50,16 @@ public class PlanetExplorer {
 				start = true;
 			}
 			
-			if(character == ')') {
-				start = false;
-			}
 			if(character == ',') {
 				String a = singleNumber.toString().substring(0, singleNumber.length()-1);
 				x = Integer.parseInt(a);
 			}
+			
+			if(character == ')') {
+				start = false;
+				String b = singleNumber.toString().substring(0, singleNumber.length()-1);
+			}
+
 			
 
 
