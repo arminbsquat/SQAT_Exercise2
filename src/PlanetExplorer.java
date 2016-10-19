@@ -37,9 +37,13 @@ public class PlanetExplorer {
 	private void initObs(String obstacles) {
 		char[] charObs = obstacles.toCharArray();
 		boolean end = false;
+		StringBuffer singleObstacle = new StringBuffer();
+		
 		for(char character : charObs) {
 			if(character == '(') {
 				end = false;
+				singleObstacle.append(character);
+				
 			}
 		}
 		
