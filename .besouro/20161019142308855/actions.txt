@@ -1,2 +1,6 @@
 FileOpenedAction 1476876189077 PlanetExplorer.java 1270 2 1 0
 EditAction 1476876512419 PlanetExplorer.java 1282 2 1 0
+RefactoringAction 1476876530341 PlanetExplorer.java ADD int posX FIELD
+RefactoringAction 1476876530346 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1476876534386 PlanetExplorer.java RENAME pos=>int posY FIELD
+EditAction 1476876535127 PlanetExplorer.java 1314 2 1 0
